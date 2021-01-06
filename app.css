@@ -7,14 +7,20 @@ body {
   background-color: rgb(249, 217, 214);
 }
 
-.navbar {
+#mainNavbar {
   font-size: 22px;
-  background-color: transparent;
-  /* background-color: rgb(225, 193, 221); */
 }
 
-.navbar-brand {
+.navbar.scrolled {
+  background-color: rgb(225, 193, 221);
+  transition: background-color 500ms ;
+}
+
+#mainNavbar .navbar-brand {
   color: rgb(249, 27, 52);
+}
+
+#mainNavbar {
   font-size: 1.5rem;
   font-weight: 200;
   line-height: inherit;
@@ -24,16 +30,20 @@ body {
   color: rgb(249, 27, 52);
 }
 
-.nav-link {
+#mainNavbar .nav-link {
   color: white;
-  font-size: 22px;
 }
+
+#mainNavbar .nav-link:hover {
+  color: rgb(249, 27, 52);
+}
+
 
 h2 {
   font-size: 2em;
   font-weight: 100;
-    text-align: center;
-    color: rgb(249, 27, 52);
+  text-align: center;
+  color: rgb(249, 27, 52);
 }
 
 .description {
