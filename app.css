@@ -1,0 +1,73 @@
+html{
+  text-transform: uppercase;
+  font-family: Nunito, sans-serif ;
+}
+
+body {
+  background-color: rgb(249, 217, 214);
+}
+
+.navbar {
+  font-size: 22px;
+  background-color: transparent;
+  /* background-color: rgb(225, 193, 221); */
+}
+
+.navbar-brand {
+  color: rgb(249, 27, 52);
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: inherit;
+}
+
+.navbar-brand:hover {
+  color: rgb(249, 27, 52);
+}
+
+.nav-link {
+  color: white;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 100;
+    text-align: center;
+    color: rgb(249, 27, 52);
+}
+
+.description {
+  text-align: center;
+  text-transform: none;
+  color: rgb(254, 143, 184);
+  font-size: 1.125rem;
+  font-weight: 100;
+}
+
+.content {
+  margin: 100px 0px;
+  line-height: 2em;
+}
+
+span {
+  color: rgb(249, 27, 52);
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 200;
+  line-height: 1.2;
+  padding: 5px;
+}
+
+#lolli-icon {
+  height: 125px;
+  width: 150px;
+} 
+
+@media (max-width: 1200px) {
+  h1 {
+      font-weight: 100;
+      font-size: 3rem;
+  }
+}
